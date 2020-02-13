@@ -1,0 +1,62 @@
+/* pages/jiaxiao/index.wxss */
+.sort-wrap{
+  height:90rpx;
+  background-color:#fff;
+}
+.sort-btn{
+  width:33.333%;
+  float:left;
+  text-align: center;
+  height:90rpx;
+  line-height:90rpx;
+  font-size: 14px;
+  color:#333;
+}
+.sort-btn image{
+  width: 22rpx;
+  height: 24rpx;
+}
+
+
+.divcs{
+  background-color: #ccc;
+}
+.div{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 20rpx;
+  margin-bottom: 26rpx;
+  background-color: #fff;
+}
+.div image{
+  width: 40%;
+  height: 220rpx;
+  margin-right: 30rpx;
+  border-radius: 30rpx;
+}
+.div .txt{
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  font-size: 14px;
+}
+.div .txt .t1{
+  min-height: 90rpx;
+    overflow:hidden;/*溢出隐藏*/
+    text-overflow: ellipsis;/*超出部分显示省略号*/
+    display:-webkit-box;/*弹性盒*/
+    -webkit-box-orient:vertical;/*设置对象内元素的排列方式为垂直*/
+    -webkit-line-clamp:2;/*限制块元素文本行数*/
+}
+.div .txt .t2{
+  overflow:hidden;/*溢出隐藏*/
+  white-space:nowrap; /*不换行*/
+  text-overflow:ellipsis;/*超出部分显示省略号*/
+  -o-text-overflow:ellipsis;
+}
+.div .txt .t3{
+  margin-top: 30rpx;
+  color: red;
+  font-size: 18px;
+}

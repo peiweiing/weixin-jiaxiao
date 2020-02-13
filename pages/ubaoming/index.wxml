@@ -1,0 +1,17 @@
+<!--pages/ubaoming/index.wxml-->
+<view class="head">
+  <component-head inner-text="我的报名">
+  </component-head>
+</view>
+
+<view class="divcs">
+  <view class="div" wx:for="{{arr}}">
+    <view class="img">
+      <image src="{{item.src}}"></image>
+    </view>
+    <view class="text">
+      <text class="t1">{{item.txt}}</text>
+      <text>￥{{item.money}}</text>
+    </view>
+  </view>
+</view>

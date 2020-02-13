@@ -1,0 +1,53 @@
+<!--pages/forum/index.wxml-->
+<view class="head">
+  <text>招生素材</text>
+</view>
+<view class="top">
+  <view class="search">
+    <image src="../../img/search.png"></image>
+    <input placeholder="请输入搜索内容"></input>
+  </view>
+  <image src="../../img/tongzhi.png"></image>
+</view>
+<view class="icon">
+  <view wx:for="{{arr}}">
+    <image src="{{item.src}}"></image>
+    <text>{{item.txt}}</text>
+  </view>
+</view>
+<view class="div" wx:for="{{main}}">
+  <view class="divtop" bindtap="ondetails">
+    <view class="one">
+      <image src="{{item.ttsrc}}"></image>
+      <text>{{item.title}}</text>
+    </view>
+    <view class="two">
+      <text class="two1">{{item.h1}}</text>
+      <text class="two2">{{item.text}}</text>
+    </view>
+    <view class="three">
+      <text class="three1">{{item.time}}</text>
+      <text class="three2">{{item.butt}}</text>
+    </view>
+    <view class="pinglun">
+    </view>
+  </view>
+  <view class="divend">
+    <view>
+      <image src="../../img/xfenxiang.png"></image>
+      <text>分享</text>
+    </view>
+    <view bindtap="chakan">
+      <image src="../../img/xchakan.png"></image>
+      <text>{{chakan}}</text>
+    </view>
+    <view>
+      <image src="../../img/xpinglun.png"></image>
+      <text>评论</text>
+    </view>
+    <view>
+      <image src="../../img/xshoucang.png"></image>
+      <text>7</text>
+    </view>
+  </view>
+</view>

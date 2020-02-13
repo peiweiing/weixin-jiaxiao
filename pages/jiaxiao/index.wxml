@@ -1,0 +1,54 @@
+<!--pages/jiaxiao/index.wxml-->
+<view class="head">
+  <component-head inner-text="驾校推荐">
+  </component-head>
+</view>
+<view class='sort-wrap'>
+  <view class='sort-btn' data-index="{{daindex1}}" bindtap="choosesort1">
+    推荐排序
+    <image src="{{imageurl1}}"></image>
+  </view>
+  <view class='sort-btn' data-index="{{daindex2}}" bindtap="choosesort2">
+    距离优先
+    <image src="{{imageurl2}}"></image>
+  </view>
+  <view class='sort-btn' data-index="{{daindex3}}" bindtap="choosesort3">
+    价格优先
+    <image src="{{imageurl3}}"></image>
+  </view>
+</view>
+
+<view class="divcs">
+  <view class="div">
+    <image src="../../img/kaochang.png"></image>
+    <view class="txt">
+      <text class="t1">鹏程驾校报名费1888全程无忧等等</text>
+      <text class="t2">碰传较短时间考虑收到JFK了</text>
+      <text class="t3">￥999</text>
+    </view>
+  </view>
+  <view class="div">
+    <image src="../../img/kaochang.png"></image>
+    <view class="txt">
+      <text class="t1">鹏程驾校报名费1888全程无忧等等</text>
+      <text class="t2">碰传较短时间考虑收到JFK了</text>
+      <text class="t3">￥999</text>
+    </view>
+  </view>
+  <view class="div">
+    <image src="../../img/kaochang.png"></image>
+    <view class="txt">
+      <text class="t1">鹏程驾校报名费1888全程无忧等等</text>
+      <text class="t2">碰传较短时间考虑收到JFK了</text>
+      <text class="t3">￥999</text>
+    </view>
+  </view>
+  <view class="div">
+    <image src="../../img/kaochang.png"></image>
+    <view class="txt">
+      <text class="t1">鹏程驾校报名费1888全程无忧等等</text>
+      <text class="t2">碰传较短时间考虑收到JFK了</text>
+      <text class="t3">￥999</text>
+    </view>
+  </view>
+</view>

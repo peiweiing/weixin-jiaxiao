@@ -1,0 +1,64 @@
+<!--pages/details/index.wxml-->
+<view class="head">
+  <component-head inner-text="详情">
+  </component-head>
+</view>
+
+<view class="top">
+  <view class="logo">
+    <image src="../../img/logo.png"></image>
+    <view class="h1">
+      <text>大新县新运机动车驾驶培训</text>
+      <view>
+        <text>2018-12-12</text>
+        <text>人气 0</text>
+      </view>
+    </view>
+  </view>
+  <view class="title">
+    <text>大新科目一、四注意事项</text>
+  </view>
+  <view class="text">
+    <text>
+      科目一、科目四学院注意事项
+      各位学员请注意:下面宣读一下考生须知，请大家保持考场安静，认真倾听。
+      1.候考的学院请照位置坐好，不要站在通道，点到名字的学院才可以存东西，存包柜的条码纸只可以使用依次，使用过的条码纸请丢到垃圾桶内，不要随地乱扔，披头散发的学院请将头发扎起来。
+    </text>
+  </view>
+</view>
+
+<view class="seo">
+  <image src="../../img/logo_2.png"></image>
+  <view>
+    <text>考试须知</text>
+    <view>
+      <view>
+        <image></image>
+        <text>0人关注</text>
+      </view>
+      <view>
+        <image></image>
+        <text>2个话题</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <van-tabs bind:click="onClick">
+    <van-tab title="回复" class="ment">
+    
+    </van-tab>
+    <van-tab title="点赞" class="ment">
+    
+    </van-tab>
+  </van-tabs>
+</view>
+<view class="foot">
+  <view class="end">
+    <text class="arrow" bintap="onforum"></text>
+    <input placeholder="来说说我的看法..."></input>
+    <image src="../../img/xfenxiang.png"></image>
+    <image src="../../img/xshoucang.png"></image>
+  </view>
+</view>

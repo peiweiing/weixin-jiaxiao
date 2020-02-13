@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index",
+    "pages/logs/logs",
+    "pages/forum/index",
+    "pages/jiaxiao/index",
+    "pages/kaochang/index",
+    "pages/details/index",
+    "pages/ubaoming/index",
+    "pages/ushoucang/index",
+    "pages/uyueke/index",
+    "pages/kaochangs/index",
+    "pages/jiaxiaos/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#fd4a5f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/forum/index",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

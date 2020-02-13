@@ -1,0 +1,99 @@
+/* pages/details/index.wxss */
+.top{
+  padding: 20rpx;
+}
+.top .logo{
+  display: flex;
+  align-items: center;
+}
+.top .h1{
+  display: flex;
+  flex-flow: column;
+  margin-left: 20rpx;
+}
+.top .h1>text{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.top .h1 view{
+  display: flex;
+}
+.top .h1 view text{
+  font-size: 12px;
+  margin-right: 10rpx;
+  color: #666;
+}
+.top .logo>image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.top .title{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.top .text{
+  font-size: 14px;
+  color: #666;
+}
+
+.seo{
+  padding: 20rpx 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 30rpx solid #ccc;
+}
+.seo>image{
+  width: 60rpx;
+  height: 60rpx;
+  margin: 0 40rpx;
+  font-weight: bolder;
+}
+.seo>view{
+  display: flex;
+  flex-flow: column;
+}
+.seo view image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.seo>view>view{
+  display: flex;
+}
+.seo>view>view>view{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.foot{
+  position: sticky;
+  bottom: 0;
+  z-index: 999;
+  background-color: #fff;
+}
+.end{
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+}
+.end input{
+  font-size: 12px;
+  background-color: rgb(239,239,239);
+  padding: 6rpx 40rpx;
+}
+.end image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.arrow{
+  width: 25rpx;
+  height:25rpx;
+  margin-left: 30rpx;
+  border-left: 4rpx solid #000;
+  border-top: 4rpx solid #000;
+  transform: rotate(-45deg);
+}

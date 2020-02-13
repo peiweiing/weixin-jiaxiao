@@ -1,0 +1,6 @@
+<!--component/header/header.wxml-->
+    <view class="header">
+      <text class="arrow" bindtap="goback"></text>
+      <text class="txt">{{innerText}}</text>
+      <text></text>
+    </view>

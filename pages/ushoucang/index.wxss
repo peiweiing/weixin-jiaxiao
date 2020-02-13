@@ -1,0 +1,33 @@
+/* pages/ushoucang/index.wxss */
+.divcs{
+  background-color: #ccc;
+  padding: 20rpx;
+}
+.div{
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  background-color: #fff;
+}
+.div .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div image{
+  height: 260rpx;
+}
+.div .text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.div .text .t1{
+    overflow:hidden;/*溢出隐藏*/
+    white-space:nowrap; /*不换行*/
+    text-overflow:ellipsis;/*超出部分显示省略号*/
+    -o-text-overflow:ellipsis;
+}
+.div .text .t2{
+  text-align: right;
+}

@@ -1,0 +1,17 @@
+<!--pages/ushoucang/index.wxml-->
+<view class="head">
+  <component-head inner-text="我的收藏">
+  </component-head>
+</view>
+
+<view class="divcs">
+  <view class="div" wx:for="{{arr}}">
+    <view class="img">
+      <image src="{{item.src}}"></image>
+    </view>
+    <view class="text">
+      <text class="t1">{{item.txt}}</text>
+      <text class="t2">￥{{item.money}}</text>
+    </view>
+  </view>
+</view>

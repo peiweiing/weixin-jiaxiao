@@ -1,0 +1,67 @@
+/* pages/index/index.wxss */
+
+.top{
+  
+}
+.top .site{
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top .site image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.search{
+  display: flex;
+  justify-content: center;
+}
+.search view{
+  font-size: 14px;
+  height: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rpx;
+  box-shadow: 0 0 2px #ccc;
+}
+.search image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.lunbo{
+  padding: 1rem;
+}
+.u-wrp-bnr {
+  width: 100%;
+}
+.u-img-slide {
+  width: 100%;
+  height: 340rpx;
+}
+
+.icon image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.ico{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.divcs{
+  overflow: auto;
+}
+.divcs view{
+  width: 1800px;
+}
+.divcs image{
+  width: 260rpx;
+  height: 180rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+.div{
+  margin: 1rem;
+}

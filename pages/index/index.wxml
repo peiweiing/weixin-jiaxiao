@@ -1,0 +1,66 @@
+<!--pages/index/index.wxml-->
+<view class="boxTop">
+</view>
+<view class="top">
+  <view class="site">
+    <image src="../../img/shoucang.png"></image>
+    <text>西安</text>
+  </view>
+  <view class="search">
+    <view class="w60">
+      <image src="../../img/search.png"></image>
+      <input placeholder="请输入想要查找的内容"></input>
+    </view>
+  </view>
+</view>
+<view class="lunbo">
+  <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+    <block wx:for="{{bnrUrl}}" wx:for-index="index">
+      <swiper-item>
+        <image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="icon w100 flex">
+  <view class="ico w4">
+    <image src="../../img/xiao.png"></image>
+    <text>考场详情</text>
+  </view>
+  <view class="ico w4">
+    <image src="../../img/xiao.png"></image>
+    <text>考场详情</text>
+  </view>
+  <view class="ico w4">
+    <image src="../../img/xiao.png"></image>
+    <text>考场详情</text>
+  </view>
+  <view class="ico w4 FY">
+    <image src="../../img/xiao.png"></image>
+    <text>考场详情</text>
+  </view>
+</view>
+<view class="div">
+  <text bindtap="kaochang">考场推荐</text>
+  <view class="divcs">
+    <view>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    </view>
+  </view>
+</view>
+<view class="div">
+  <text bindtap="jiaxiao">驾校推荐</text>
+  <view class="divcs">
+    <view>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    <image src="../../img/xiaotu.png"></image>
+    </view>
+  </view>
+</view>

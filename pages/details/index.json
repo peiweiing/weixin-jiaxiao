@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "component-head": "../../component/header/header",
+    "van-tab": "../../component/weapp/tab/index",
+    "van-tabs": "../../component/weapp/tabs/index"
+  }
+}

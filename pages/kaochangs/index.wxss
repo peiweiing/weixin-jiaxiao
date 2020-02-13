@@ -1,0 +1,12 @@
+/* pages/kaochangs/index.wxss */
+
+.lunbo{
+  padding: 1rem;
+}
+.u-wrp-bnr {
+  width: 100%;
+}
+.u-img-slide {
+  width: 100%;
+  height: 340rpx;
+}
