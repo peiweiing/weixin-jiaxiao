@@ -7,22 +7,11 @@
   <text bindtap="kaochang">今日首推</text>
   <view class="divcs">
     <view class="width">
-      <view class="div">
-        <image src="../../img/lunbo.png"></image>
-        <text>清华考场明日可约学员200人次</text>
+      <view class="div" wx:for="{{position_room}}">
+        <image src="{{item.pic}}"></image>
+        <text>{{item.name}}</text>
         <view class="txt">
-          <text>￥999</text>
-          <view>
-            <image src="../../img/shoucang.png"></image>
-            <image src="../../img/pinglun.png"></image>
-          </view>
-        </view>
-      </view>
-      <view class="div">
-        <image src="../../img/lunbo.png"></image>
-        <text>清华考场明日可约学员200人次</text>
-        <view class="txt">
-          <text>￥999</text>
+          <text>￥{{item.price}}</text>
           <view>
             <image src="../../img/shoucang.png"></image>
             <image src="../../img/pinglun.png"></image>
@@ -35,38 +24,16 @@
 <view class="end">
   <text>当前热门</text>
   <view class="divcs">
-    <view class="div">
-      <image src="../../img/kaochang.png"></image>
-      <text>清华考场明日可约学员200人次</text>
+    <view class="div" wx:for="{{hot_room}}">
+      <image src="{{item.pic}}"></image>
+      <text>{{item.name}}</text>
       <view class="txt">
-        <text>￥999</text>
+        <text>￥{{item.price}}</text>
         <view>
           <image src="../../img/shoucang.png"></image>
           <image src="../../img/pinglun.png"></image>
         </view>
       </view>
-    </view>
-    <view class="div">
-      <image src="../../img/kaochang.png"></image>
-      <text>清华考场明日可约学员200人次</text>
-      <view class="txt">
-        <text>￥999</text>
-        <view>
-          <image src="../../img/shoucang.png"></image>
-          <image src="../../img/pinglun.png"></image>
-        </view>
-      </view>
-    </view>
-    <view class="div">
-      <image src="../../img/kaochang.png"></image>
-      <text>清华考场明日可约学员200人次</text>
-      <view class="txt">
-        <text>￥999</text>
-        <view>
-          <image src="../../img/shoucang.png"></image>
-          <image src="../../img/pinglun.png"></image>
-        </view>
-      </view>
-    </view>
+    </view>   
   </view>
 </view>

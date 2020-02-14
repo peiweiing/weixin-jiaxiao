@@ -1,4 +1,5 @@
 // pages/kaochang/index.js
+const app = getApp()
 Page({
 
   /**
@@ -16,9 +17,43 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.gethot_room();
+    this.getposition_room();
   },
-
+  /*
+   * 获取推荐考场
+   */
+  getposition_room(e) {
+    var url = app.url;
+    var that = this;
+    wx.request({
+      url: url + '/Index/position_room',
+      success: function (e) {
+        if (e.data.error == 200) {
+          that.setData({
+            position_room: e.data.data
+          })
+        }
+      }
+    })
+  },
+  /*
+   * 获取热门考场
+  */
+  gethot_room: function (e) {
+    var url = app.url;
+    var that = this;
+    wx.request({
+      url: url + '/Index/hot_room',
+      success: function (e) {
+        if (e.data.error == 200) {
+          that.setData({
+            hot_room: e.data.data
+          })
+        }
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
