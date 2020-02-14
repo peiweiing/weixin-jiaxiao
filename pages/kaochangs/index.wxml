@@ -1,57 +1,67 @@
 <!--pages/kaochangs/index.wxml-->
 <view class="head">
-  <component-head inner-text="场地">
+  <component-head inner-text="考试场地">
   </component-head>
 </view>
-<view>
+<view class="top">
   <text>庆华考场</text>
 </view>
 <view class="lunbo">
   <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
     <block wx:for="{{bnrUrl}}" wx:for-index="index">
-      <swiper-item>
+      <swiper-item class="u-img-item">
         <image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
       </swiper-item>
     </block>
   </swiper>
 </view>
-<view>
-  <view>
-    <image></image>
-    <text></text>
+<view class="icon">
+  <view wx:for="{{arr}}">
+    <image src="{{item.src}}"></image>
+    <text>{{item.txt}}</text>
   </view>
 </view>
-<view>
-  <view>
-    <text>考场信息</text>
-    <text>庆华考场乍地一万三千多平方米，单词可容纳考生9000余次</text>
+<view class="main">
+  <view class="kaochang">
+    <text class="t1">考场信息</text>
+    <text class="t2">庆华考场乍地一万三千多平方米，单词可容纳考生9000余次庆华考场乍地一万三千多平方米，单词可容纳考生9000余次</text>
   </view>
-  <view>
+  <view class="baoming">
     <text>报名提交</text>
-    <view>
-      <text>姓名：</text>
-      <input></input>
-    </view>
-    <view>
-      <text>姓名：</text>
-      <input></input>
-    </view>
-    <view>
-      <text>姓名：</text>
-      <input></input>
-    </view>
-    <view>
-      <text>姓名：</text>
-      <input></input>
-    </view>
-    <view>
-      <text>姓名：</text>
-      <input></input>
-    </view>
-    <view>
-      <text>姓名：</text>
-      <input></input>
-    </view>
+    <view class="form">
+      <view class="view1">
+        <view>
+          <text>姓名：</text>
+          <input></input>
+        </view>
+        <view>
+          <text>性别：</text>
+          <input></input>
+        </view>
+        <view>
+          <text>招考驾校：</text>
+          <input></input>
+        </view>
+        <view>
+          <text>考试科目：</text>
+          <input></input>
+        </view>
+      </view>
+      <view class="view2">
+        <view>
+          <text>学员身份证号：</text>
+          <input></input>
+        </view>
+        <view>
+          <text>教练姓名：</text>
+          <input></input>
+        </view>
+        <view>
+          <text>教练联系方式：</text>
+          <input></input>
+        </view>
+      </view>
+      </view>
     <button>提交</button>
   </view>
 </view>

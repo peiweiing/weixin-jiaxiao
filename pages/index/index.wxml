@@ -43,7 +43,7 @@
 <view class="div">
   <text bindtap="kaochang">考场推荐</text>
   <view class="divcs">
-    <view>
+    <view bindtap="kaochangs">
     <image src="../../img/xiaotu.png"></image>
     <image src="../../img/xiaotu.png"></image>
     <image src="../../img/xiaotu.png"></image>

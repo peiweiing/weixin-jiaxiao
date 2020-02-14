@@ -23,6 +23,11 @@ Page({
         url: '../kaochang/index',
       })
   },
+  kaochangs() {
+    wx.navigateTo({
+      url: '../kaochangs/index',
+    })
+  },
   jiaxiao() {
     wx.navigateTo({
       url: '../jiaxiao/index',

@@ -4,7 +4,7 @@
   </component-head>
 </view>
 <view class="top">
-  <text bindtap="kaochang">今日首推</text>
+  <text>今日首推</text>
   <view class="divcs">
     <view class="width">
       <view class="div">

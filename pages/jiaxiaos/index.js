@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    "bnrUrl": [
+      { "url": "../../img/lunbo.png" },
+      { "url": "../../img/lunbo.png" },
+      { "url": "../../img/lunbo.png" },
+      { "url": "../../img/lunbo.png" },
+    ],
+    arr: [
+      { src: "../../img/xchakan.png", txt: "位置导航", url: "" },
+      { src: "../../img/xchakan.png", txt: "咨询", url: "" },
+      { src: "../../img/xchakan.png", txt: "考场视频", url: "" },
+    ],
   },
 
   /**
